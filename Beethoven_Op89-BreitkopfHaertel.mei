@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -91,6 +91,7 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="section-0000001610246822">
+                  <pb xml:id="pb-0000001905394812"/>
                   <measure xml:id="measure-0000001652631795" n="1">
                      <staff xml:id="staff-0000001105543599" n="1">
                         <layer xml:id="layer-0000001905394806" n="1">
